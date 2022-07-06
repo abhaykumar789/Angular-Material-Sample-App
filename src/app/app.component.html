@@ -1,0 +1,13 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!<br/>
+  </h1>
+  <app-child [pp]="messageFromParent" (outputs)="getData($event)"></app-child>
+  Message From Child:{{messageFromChild}}
+  </div>
+
+  <app-matc></app-matc>
+  <hr/>
+<app-buttonoverview></app-buttonoverview>
+  <hr/>
